@@ -19,3 +19,15 @@ const chef = {
 		isOpen: true,
 	}
 }
+
+const copy = {
+	...chef,
+	restaurant: {
+		...chef.restaurant,
+		address: {
+			...chef.restaurant.address
+		}
+	}
+}
+
+console.log(copy)

@@ -19,7 +19,7 @@ const secondBurger = {...hamburger};
 secondBurger.maker.restaurant = newRestaurant;
 secondBurger.maker.name = "Chef Hyur";
 
-console.log(hamburger.maker.name); // ?
-console.log(secondBurger.maker.name); // ?
-console.log(hamburger.maker.restaurant.name); // ?
-console.log(secondBurger.maker.restaurant.name); // ?
+console.log(hamburger.maker.name); // 'Chef Hyur'
+console.log(secondBurger.maker.name); // 'Chef Hyur'
+console.log(hamburger.maker.restaurant.name); // 'Hyur's II'
+console.log(secondBurger.maker.restaurant.name); // 'Hyur's II'
